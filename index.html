@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" rel="index">
+<head>
+    <meta charset="UTF-8">
+    <title>shuwukid</title>
+    <link rel="stylesheet"  href="./cs/navigation.css" type="text/css" />
+    <style>
+        #titleName{
+            margin-left: 15%;
+            width: 400px;
+            height: 90px;
+        }
+    </style>
+</head>
+<body>
+<script type="text/javascript" src="./jquery/jquery-3.6.0.js"></script>  
+<div id="titleName">
+    <h1 class="textCenter" style="width: 500px;height: 90px;color: coral ;">刘文 --个人网站</h1>
+</div>
+<div id="navigation">
+    <table frame="void">
+        <tr>
+            <td>
+                <div class="textCenter indexContent">
+                    <a >首页</a>
+                </div>
+            </td>
+            <td >
+                <div class="textCenter myImage">
+                    <a>相册</a>
+                </div>
+            </td>
+            <td>
+                <div class="textCenter regard">
+                    <a>资料</a>
+                </div>
+            </td>
+            <td >
+                <div class="textCenter connection">
+                    <a>留言</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="showData">
+</div>
+
+<script type="text/javascript">
+    $("#showData").load("./indexContent.html");
+    $(".regard").click(function (){
+        $("#showData").load("./regard.html");
+    });
+    $(".indexContent").click(function (){
+        $("#showData").load("./indexContent.html");
+    });
+    $(".myImage").click(function (){
+        $("#showData").load("./myImage.html");
+    });
+    $(".connection").click(function (){
+        $("#showData").load("./connection.html");
+    });
+</script>
+</body>
+</html>

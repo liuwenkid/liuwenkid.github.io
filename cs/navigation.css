@@ -1,0 +1,33 @@
+#showData{
+    width: 1300px;
+    height: 800px;
+    margin-left: 250px;
+    margin-top: 20px;
+    background-image: url("../image/李荣浩.jpg");
+    background-size: 100%;
+}
+#navigation{
+    width: auto;
+    margin-left: 35%;
+}
+#navigation td {
+    height: 65px;
+    width: 140px;
+    margin-left: 100px;
+}
+#navigation .textCenter{
+    text-align: center;
+    font-family: 微软雅黑,serif;
+    font-weight: bold;
+    color: darkcyan ;
+    font-size: 30px;
+    height: 65px;
+    width: 140px;
+    padding: 0;
+    display: table-cell;
+    vertical-align:middle;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}

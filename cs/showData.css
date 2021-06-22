@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none;
+}
+.content{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.title{
+    border-radius: 10px;
+    margin: auto;
+    width: 250px;
+    height: 60px;
+}
+.textCenter{
+    text-align: center;
+    font-family: 微软雅黑,serif;
+    font-weight: bold;
+    color: gold ;
+    font-size: 50px;
+    padding: 0;
+    display: table-cell;
+    vertical-align:middle;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
